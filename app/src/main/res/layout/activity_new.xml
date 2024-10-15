@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RestActivity">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ad" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editTextSurname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyad " />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editTextBirthYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doğum yılı"/>
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/editTextTckn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TC Kimlik No" />
+
+    <Button
+        android:id="@+id/buttonCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
+
